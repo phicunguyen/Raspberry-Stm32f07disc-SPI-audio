@@ -2,7 +2,7 @@
 Play an audio wave file over SPI interface using Raspberry Pi4 as spi-master and stm32f407disc as spi-slave. 
 The stm32f407 is generated using Cubemx.
 
-Below is the spi pin connection between Raspberry and Stm32:
+Below is the spi pins connection between Raspberry and Stm32:
 
              Raspberry   Stm32f407-disc
      MOSI      P1-19        PC3
