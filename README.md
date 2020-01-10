@@ -5,12 +5,12 @@ The stm32f407 is generated using Cubemx.
 Below is the spi pin connection between Raspberry and Stm32:
 
              Raspberry   Stm32f407-disc
-     MOSI      P1-19	       PC3
-     MISO      P1-21	       PC2
-     SCLK      P1-23   	     PB10
-     CE0       P1-24	       PB12
-     INT       P1-29	       PB13
-     GND       P1-25	       GND
+     MOSI      P1-19        PC3
+     MISO      P1-21	      PC2
+     SCLK      P1-23   	    PB10
+     CE0       P1-24        PB12
+     INT       P1-29        PB13
+     GND       P1-25        GND
      
 The code was first written in python using the python spidev but I couldn't get the spi clock speed to go over 2*125000. 
 When spi speed is set higher than that then spi clock does not toggle ann more.
